@@ -53,7 +53,7 @@ background-color: transparent;
 font-size: 15px;
 font-weight: 700;
 line-height: 25px;
-color: rgb(147, 156, 170);
+color: #939caa;
 margin-left: 40px;
 }
 
@@ -351,6 +351,7 @@ line-height: 15px;
 letter-spacing: -0.4px;
 border: none;
 text-align: start;
+cursor: pointer;
 }
 
 .appstore {
@@ -393,9 +394,15 @@ padding: 30px;
 color:#ffffff;
 }
 
-.social-media:hover {
-color: #e5ecf4;
+.social-media {
+margin-left: 10px;
+cursor: pointer;
 }
+
+.social-media:hover{
+    color: #e5ecf4 !important;
+}
+
 
 
 
