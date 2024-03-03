@@ -1,0 +1,191 @@
+h1{
+    margin-left: 158px;
+    padding: 72px 0;
+}
+
+.hero{
+    background-image: url(../images/careeres-hero-img.png);
+    background-size: cover;
+}
+
+.hero::after{
+  content:"";
+  position: absolute;
+  background-image: url(../images/circles.png);
+  background-repeat: no-repeat;
+  width: 203px;
+  height: 63px;
+  top: 68px;
+  right: -13px;
+}
+
+.lhite {
+  background-color:#344872;
+  opacity: .5;
+}
+
+.values{
+    text-align: center;
+    margin-bottom: 115px;
+    margin-top: 260px;
+}
+
+.scoot-app-button {
+    padding: 13px 50px;
+
+}
+
+.align-center {
+text-align: center;
+}
+
+.sub-sub-title {
+font-size: 25px;
+line-height: 28px;
+letter-spacing: -1px;
+color: #495567;
+padding: 25px 0;
+}
+
+.values-paragraphe {
+max-width: 23vw;
+font-family: Lexend Deca;
+font-size: 15px;
+line-height: 25px;
+color: #939caa
+}
+
+.step {
+margin: 0 auto;
+font-size: 25px;
+line-height: 28px;
+letter-spacing: -1px;
+color:rgb(73, 85, 103);
+}
+
+.tech::before{
+content: "";
+position: absolute;
+background-image: url(../images/tech.png);
+background-repeat: no-repeat;
+width: 350px;
+height: 350px;
+bottom: 145px;
+    left: -6px;
+}
+
+.integrity::before{
+content: "";
+position: absolute;
+background-image: url(../images//integrity.png);
+background-repeat: no-repeat;
+width: 350px;
+height: 350px;
+bottom: 145px;
+left: -6px;
+}
+
+.community::before {
+content: "";
+position: absolute;
+background-image: url(../images/community.png);
+background-repeat: no-repeat;
+width: 350px;
+height: 350px;
+bottom: 145px;
+left: -6px;
+}
+
+.back-color {
+background-color: #f2f5f9;
+margin-bottom: 30px;
+padding: 45px 70px 45px 45px;
+}
+
+.apply {
+flex: 1;
+}
+
+    .apply-title {
+font-size: 25px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: -1px;
+color: #495567;
+padding-bottom: 5px;
+}
+
+.apply-paragraphe {
+font-family: Lexend Deca;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+color: #495567;
+}
+
+.apply-button {
+padding: 13px 65px;
+}
+
+.apply-mode {
+margin-bottom: 160px;
+}
+
+@media(max-width:768px){
+
+  h1 {
+  margin-left: 95px;
+  }
+
+   .hero{
+    background-image: url(../images/careeres-hero-1.png);
+  }
+
+  .hero::after {
+  right: 0;
+  }
+
+  .get-your-scoot {
+  text-align: center;
+  overflow-x: hidden;
+  }
+
+  .order {
+  order: 2;
+  }
+  
+  .values {
+      height: 1395px;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 157px;
+    margin-bottom: 0;
+}
+
+ .tech::before {
+     bottom: 145px;
+    left: 57px;
+ }
+
+ .values-paragraphe{
+  max-width: 457px;
+ }
+
+ .integrity::before{
+  bottom: 125px;
+    left: 55px;
+ }
+
+ .community::before {
+ bottom: 120px;
+ left: 50px;
+ }
+
+ .flex{
+    display: flex;
+ }
+
+ .back-color {
+ padding: 35px 70px 35px 45px;
+ }
+}

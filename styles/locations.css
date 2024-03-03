@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin-left: 158px;
+  padding: 72px 0;
+  color: #ffffff;
+  font-size: 53px;
+  line-height: 53px;
+  letter-spacing: -2px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1210px;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.header-nav {
+  padding: 25px 0;
+}
+
+.logo {
+  text-decoration: none;
+  border: none;
+  color: #495567;
+  font-size: 40px;
+  font-weight: 700;
+  background-color: transparent;
+}
+
+.header-navigation {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #939caa;
+  margin-left: 40px;
+}
+
+.header-navigation:hover {
+  color: #fcb72b;
+}
+
+.button-normal {
+  text-decoration: none;
+  border: 2px solid #fcb72b;
+  background-color: #fcb72b;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  padding: 13px 45px;
+  letter-spacing: 0.9px;
+  cursor: pointer;
+}
+
+.button-normal:hover {
+  background-color: transparent;
+  color: #fcb72b;
+}
+
+.hero {
+  background-image: url(../images/careeres-hero-img.png);
+  background-size: cover;
+  margin-bottom: 142px;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/circles.png);
+  background-repeat: no-repeat;
+  width: 203px;
+  height: 63px;
+  top: 68px;
+  right: 0;
+}
+
+.lhite {
+  background-color: #344872;
+  opacity: 0.5;
+}
+
+.map {
+  background-image: url(../images/maps.png);
+  background-repeat: no-repeat;
+  height: 543px;
+}
+
+.sub-title {
+  max-width: 24.38vw;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.9px;
+  color: #495567;
+}
+
+.locations-paragraphe {
+  max-width: 30.9vw;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #939caa;
+}
+
+.message-us {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.sign-up {
+  background-color: #495567;
+  padding: 80px;
+}
+
+.footer-heading {
+  max-width: 28.8vw;
+  font-size: 44px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #ffffff;
+}
+
+.footer-button {
+  font-weight: 700;
+  background-color: #e5ecf4;
+  padding: 10px 10px 10px 56px;
+  border-radius: 5px;
+  color: #495567;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: -0.5px;
+  border: none;
+  text-align: start;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.appstore {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.apple::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/apple.png);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 28px;
+  left: 20px;
+  bottom: 15px;
+}
+
+.play::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/google-play.png);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 28px;
+  left: 20px;
+  bottom: 15px;
+}
+
+.sub-footer {
+  background-color: #333a44;
+  padding: 30px;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.social-media {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.social-media:hover {
+  color: #e5ecf4 !important;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: auto;
+    max-width: 690px;
+  }
+
+  .map {
+    background-image: url(../images/maps-1.png);
+    background-repeat: no-repeat;
+    height: 337px;
+  }
+
+  .message-us {
+    margin-bottom: 120px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sub-title {
+    max-width: 59.5vw;
+  }
+
+  .locations-paragraphe {
+    max-width: 74.6vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .sign-up {
+    background-image: url(../images/background-footer-2.png);
+    padding: 65px;
+  }
+
+  .sign-in {
+    max-width: 457px;
+    display: block;
+    text-align: center;
+  }
+  .footer-heading {
+    max-width: 457px;
+    margin-bottom: 30px;
+  }
+
+  .apple::before {
+    width: 17px;
+    height: 20px;
+    left: 15px;
+    bottom: 12px;
+  }
+  .appstore {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .play::before {
+    width: 17px;
+    height: 20px;
+    left: 18px;
+    bottom: 12px;
+  }
+  .footer-button {
+    padding: 5px 12px 5px 45px;
+  }
+
+  .sub-footer {
+    padding: 18.5px;
+  }
+}
